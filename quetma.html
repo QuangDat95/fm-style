@@ -1,0 +1,187 @@
+<html>
+<head>
+    <title>Html-Qrcode Demo</title>
+<body>
+<style>
+ @media all and (min-width: 414px) {
+	
+#qr-reader__scan_region{
+			    width: 100% !important;
+    margin: 0 auto;
+    min-height: 95% !important;
+			text-align: center;
+			display: flex;
+			position: relative;
+			background-color: #ffffff;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+  @media all and (min-width: 600px) {
+		.wrap_scan{
+			width:100%;
+			/*background-color:#FFFFFF;*/
+				height: 100vh;
+			position:fixed;
+		}
+		input, button, select, textarea{
+			font-size:unset !important;
+				font-size: 30px !important;
+		padding: 1em;
+		}
+		#qr-reader{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+				height: 100%;
+		}
+		#qr-reader video{
+				object-fit: cover;
+				width:95% !important;
+				height:100%;
+		}
+		#qr-reader__scan_region{
+			    width: 100% !important;
+    margin: 0 auto;
+    min-height: 85% !important;
+			text-align: center;
+			display: flex;
+			position: relative;
+			background-color: #ffffff;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		#qr-shaded-region{
+			 
+		}
+		#qr-reader__scan_region img{
+			width:50%;
+		}
+		#qr-reader__dashboard_section_swaplink{
+			text-decoration: underline;
+		display: inline-block;
+		font-size: 40px;
+		margin-top: 1em;
+		color: #ffffff;
+		}
+		#qr-reader__dashboard_section_fsr{
+			font-size:40px;
+		}
+		#qr-reader__dashboard_section_fsr input{
+				width: 80% !important;
+		/* height: 100px; */
+		margin: 0 auto;
+		border:1px solid #ffffff;
+		}
+		/*#qr-reader__dashboard_section_swaplink{
+			display:flex !important;
+			color:#FFFFFF;
+			justify-content: center;
+		}*/
+		
+	}
+	
+	 @media all and (min-width: 1024px) {
+	 .wrap_scan{
+			width:100%;
+			/*background-color:#FFFFFF;*/
+				height: 100vh;
+			position:unset;
+		}
+		.wrap_scan{
+			width:100%;
+			/*background-color:#FFFFFF;*/
+				height: 100vh;
+		}
+		input, button, select, textarea{
+			font-size:unset !important;
+				font-size: 20px !important;
+		padding: 1em;
+		}
+		#qr-reader{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+				height: 80%;
+				width:100%;
+		}
+		#qr-reader video{
+				object-fit: cover;
+				width:95% !important;
+				height:95%;
+		}
+		#qr-reader__scan_region{
+			width:100% !important;
+			margin:0 auto;
+				min-height: 800px !important;
+			text-align: center;
+			display: flex;
+			position: relative;
+			background-color: #000;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		#qr-shaded-region{
+			    	    border-width: 96px 221.5px !important;
+		}
+		#qr-reader__scan_region img{
+			width:40%;
+		}
+		#qr-reader__dashboard_section_swaplink{
+			text-decoration: underline;
+		display: inline-block;
+		font-size: 20px;
+		margin-top: 1em;
+		color: #000;
+		}
+		#qr-reader__dashboard_section_fsr{
+			font-size:40px;
+		}
+		#qr-reader__dashboard_section_fsr input{
+				width: 80% !important;
+		/* height: 100px; */
+		margin: 0 auto;
+		}
+	
+	}
+</style>
+<div class="wrap_scan">
+    <div id="qr-reader" style="width:100%"></div>
+    <div id="qr-reader-results"></div>
+</div>
+</body>
+<script src="html5-qrcode/minified/html5-qrcode.min.js"></script>
+<script>
+    function docReady(fn) {
+        // see if DOM is already available
+        if (document.readyState === "complete"
+            || document.readyState === "interactive") {
+            // call on next available tick
+            setTimeout(fn, 1);
+        } else {
+            document.addEventListener("DOMContentLoaded", fn);
+        }
+    }
+
+    docReady(function () {
+        var resultContainer = document.getElementById('qr-reader-results');
+        var lastResult, countResults = 0;
+        function onScanSuccess(decodedText, decodedResult) {
+            if (decodedText !== lastResult) {
+                ++countResults;
+                lastResult = decodedText;
+                // Handle on success condition with the decoded message.
+                alert(`Scan result ${decodedText}`, decodedResult);
+            }
+        }
+
+        var html5QrcodeScanner = new Html5QrcodeScanner(
+            "qr-reader", { fps: 10, qrbox: { width: 250, height: 250 } });
+        html5QrcodeScanner.render(onScanSuccess);
+    });
+</script>
+</head>
+</html>

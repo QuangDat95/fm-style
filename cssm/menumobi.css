@@ -1,0 +1,98 @@
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none; 
+}
+body{font-family: 'Roboto', sans-serif;font-size:12px;}
+/*
+1.1 Header Area
+***************************************************/
+/*Bootstrap Reset*/
+
+ #fresponsive li a{color:#333; border-right: 1px solid #DADADA; } 
+ .menu { color:#333;  line-height:28px;width:100%;}  
+.navbar-nav > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.header { background-color:#e7e7e7; }
+.mainmenu {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0; 
+	border: 0px !important;
+}
+.navbar-nav > li:last-child > a {
+    padding-right: 0px; 
+    margin-right: 0px;
+}
+.dropdown-menu {
+    padding: 0px 0; 
+    margin: 0 0 0; 
+    border: 0px solid transition !important;
+	border: 0px solid rgba(0,0,0,.15);	
+	border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+
+}
+/*=-====Main Menu=====*/
+.navbar-nav .open .dropdown-menu > li > a {padding: 1px 1px 1px 1px; color:#333;padding-left:20px;
+}
+.header_bottom { background: #eef2fb;height:20px;line-height:20px; }
+.header_area .header_bottom .mainmenu a , .navbar-default .navbar-nav > li > a {
+    color: #494949; 
+   
+    text-transform: capitalize;
+    padding: 1px 9px;
+   height:28px;line-height:28px;border-right:1px #DADADA solid;
+	font-family: 'Roboto', sans-serif;
+}
+.header_area .mainmenu .active a, 
+.header_area .mainmenu .active a:focus,
+.header_area .mainmenu .active a:hover,
+.header_area .mainmenu li a:hover,
+.header_area .mainmenu li a:focus ,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: #54c6d4;
+    background: #eef2fb;
+    outline: 0;
+}
+/*-----./ Main Menu-----*/
+
+.navbar-default .navbar-toggle { border-color: #272727 ;  } /*Toggle Button*/
+.navbar-default .navbar-toggle .icon-bar { background-color: #272727; } /*Toggle Button*/
+
+/*==========Sub Menu=v==========*/
+.mainmenu .collapse ul > li:hover > a{background: #F4F4F4;color:#00F }
+.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{background: #CBEAF0; padding-top:5px}
+.mainmenu .collapse ul ul ul > li:hover > a{background: #CBEAF0;}
+
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:#98D7E1; margin:0px; outline: none;  }
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{ height:28px;background:#D0F4DD;}
+.mainmenu .collapse ul ul ul ul, .mainmenu .collapse ul ul ul ul.dropdown-menu{background:#F4F4F4 }
+.mainmenu .collapse ul li {padding-left:10px;}
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu{background: none;border: 0 solid;margin: 0;padding: 0;min-height:20px}
+ #navbarCollapse ul{  margin-top:40px}
+#navbarCollapse ul li {  background-color:#F0F0F0; border-bottom:1px solid #999}
+ #navbarCollapse ul li ul { margin-top:5px}
+ #navbarCollapse ul li ul li {background-color:#FFFFD5;}
+     #hienthongbao {width:900px; }
+@media only screen and (min-width: 767px) {
+#navbarCollapse ul{margin-top:0px } 
+ #navbarCollapse ul li ul { margin-top:0px}
+.mainmenu .collapse ul li{position:relative; padding-left:0px; margin:0px; }
+.mainmenu .collapse ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none; border:1px solid #999;margin:0;padding-left:0px;  margin:0px; }
+/*******/
+.mainmenu .collapse ul ul li{position:relative;height:28px;border-bottom:1px solid #999;padding:0px;margin:0px;  }
+.mainmenu .collapse ul ul li:hover> ul{display:block;}
+.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none;}
+/*******/
+.mainmenu .collapse ul ul ul li{position:relative}
+.mainmenu .collapse ul ul ul li:hover ul{display:block}
+.mainmenu .collapse ul ul ul ul{position:absolute;top:0;min-width:250px;display:none;z-index:1}
+   #hienthongbao {width:100%; }
+}
+ 

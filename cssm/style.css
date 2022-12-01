@@ -1,0 +1,480 @@
+ BODY {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 0.7em;    MARGIN: 0px auto 30px; BORDER-LEFT: #cccccc 1px solid;  BORDER-BOTTOM: #cccccc 1px solid;FONT-FAMILY: verdana;  TEXT-ALIGN: center;
+}
+
+   table  .hienthiol td  {  border-collapse: collapse;border: 1px solid #C8C8C8; }
+   table tr td .hienthiol1     {  width:160px;} 
+    table tr td .hienthiol2     {  width:110px;} 
+ 
+ 
+.fixed_headers {
+   table-layout: fixed;    border-collapse: collapse;     border-spacing: 0;
+ }
+ .fixed_headers td:nth-child(1) { width: 30px;}
+ .fixed_headers th:nth-child(1) { width: 30px;}
+ .fixed_headers td:nth-child(2) { width: 80px;}
+ .fixed_headers th:nth-child(2) { width: 80px;}
+ .fixed_headers td:nth-child(3) { width: 50px;text-align:right;}
+ .fixed_headers th:nth-child(3) { width: 50px;text-align:center;}
+ .fixed_headers td:nth-child(4) { width: 180px;text-align:left;}
+ .fixed_headers th:nth-child(4) { width: 180px;text-align:center;}
+ .fixed_headers td:nth-child(5) { width: 40px;text-align:right;}
+ .fixed_headers th:nth-child(5) { width: 40px;text-align:center;}
+ .fixed_headers td:nth-child(6) { width: 80px;text-align:right;}
+ .fixed_headers th:nth-child(6) { width: 80px;text-align:center;}
+ 
+  
+  .fixed_headers td {     border: 1px solid #333333; padding :4px; }
+  
+.fixed_headers th {
+ 
+}
+ 
+.fixed_headers thead {
+  background-color: #F8E4CB;
+  color: #000000;
+}
+.fixed_headers thead tr {
+  display: block;
+  position: relative;
+}
+.fixed_headers tbody {
+  display: block;
+  overflow: auto;
+  
+  height: 300px;
+}
+.fixed_headers tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.old_ie_wrapper {
+  height: 300px;
+   overflow-x: hidden;
+  overflow-y: auto;
+}
+.old_ie_wrapper tbody {
+  height: auto;
+}
+
+.nhapchuan {    border-collapse: collapse;    border-spacing: 0;  }
+ .nhapchuan th {    background: none repeat scroll 0 0 #E4EBF2;    color: #12537F;    font-weight: bold;}
+ .nhapchuan th, .tbchuan td {         padding: 9px 9px 9px 9px;}
+ .nhapchuan  .mautr {    background: none repeat scroll 0 0 #E4EBF2;    color: #12537F;    font-weight: bold;}
+
+.tbchuan {    border-collapse: collapse;    border-spacing: 0; border:10px }
+ .tbchuan th {    background: none repeat scroll 0 0 #E4EBF2;    color: #12537F;    font-weight: bold;}
+ .tbchuan th, .tbchuan td {     border: 1px solid #333333;    padding: 5px 3px 5px 5px;}
+ .tbchuan  .mautr {    background: none repeat scroll 0 0 #E4EBF2;    color: #12537F;    font-weight: bold;}
+
+
+.tieudesp {Color:#0000FF;  Text-Align:left;font-size:14px;}
+.nguoitao {Color:#00F;  }
+.nguoinhan {Color:#033;  }
+
+
+.chuden {Color:#000000;  }
+.chudo {Color:red;  }
+
+.chulon { font-size:20px;color:#FF0000;}
+.chulonnen { font-size:20px;color:#FF0000;background: url(../images/nenbh.jpg);height:38px;}
+.tinhtien {margin-top:8px;height:35px;line-height:39px;padding-bottom:5px;background: url(../images/nenbh.jpg);font-size:18px;border-radius: 8px 8px 8px 8px;}
+.chucnang  { height:28px;line-height:28px;margin-left:1px;font-size:12px;}
+ 
+.tbchung td{padding-left:3px;padding-right:3px;}
+.cottrai
+{
+   border-left:solid windowtext 1.0pt; 
+   font-size:12px;
+   
+}
+
+.cotphai
+{
+   border-right:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+.cothienthi
+{
+   border:solid windowtext 1.0pt; mso-border-alt:solid windowtext 0.5pt;padding:0in 1.4pt 0in 1.4pt ;
+   font-size:12px;
+}
+
+.cottren
+{
+   border-top:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+.cotduoi
+{
+   border-bottom:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+.cothaiben
+{
+   border-right:solid windowtext 1.0pt; border-left:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+.cottrenduoi
+{
+   border-bottom:solid windowtext 1.0pt;  border-top:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+.cottrentrai
+{
+   border-left:solid windowtext 1.0pt;  border-top:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+
+.cottrenphai
+{
+   border-right:solid windowtext 1.0pt;  border-top:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+.cotduoitrai
+{
+   border-left:solid windowtext 1.0pt;  border-bottom:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+
+.cotduoiphai
+{
+   border-right:solid windowtext 1.0pt;  border-bottom:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+
+.cotthieutren
+{
+   border-right:solid windowtext 1.0pt; border-left:solid windowtext 1.0pt;  border-bottom:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+.cotthieuduoi
+{
+   border-right:solid windowtext 1.0pt; border-left:solid windowtext 1.0pt;    border-top:solid windowtext 1.0pt;   
+   font-size:12px;
+}
+
+.cotthieutrai
+{
+   border-right:solid windowtext 1.0pt;  border-bottom:solid windowtext 1.0pt;  border-top:solid windowtext 1.0pt;
+   font-size:12px;
+}
+
+.cotthieuphai
+{
+    border-left:solid windowtext 1.0pt;  border-bottom:solid windowtext 1.0pt;  border-top:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+
+
+.cotdaydu
+{
+    border-right:solid windowtext 1.0pt;border-left:solid windowtext 1.0pt;  border-bottom:solid windowtext 1.0pt;  border-top:solid windowtext 1.0pt; 
+   font-size:12px;
+}
+.cotdayduh
+{
+    border:solid windowtext 2.0pt; 
+   font-size:12px;
+}
+
+.footer {
+	CLEAR: both; BORDER-TOP: #c0c0c0 1px solid; BACKGROUND: #fff; TEXT-ALIGN: center
+}
+.move {
+	BORDER-RIGHT: 2px double; BORDER-TOP: 2px double; z-index: 1000; LEFT: 368px; BORDER-LEFT: 2px double;   COLOR: #aaffee; BORDER-BOTTOM: 2px double; POSITION: absolute; TOP: 55px;  BACKGROUND-COLOR: #ff00ff; 
+ }
+.moving {
+	BORDER-RIGHT: 2px dotted; BORDER-TOP: 2px dotted;   LEFT: 50px; BORDER-LEFT: 2px dotted;   COLOR: #aaffee; BORDER-BOTTOM: 2px dotted; POSITION: absolute; TOP: 50px;  BACKGROUND-COLOR: #ff6666;z-index:1000 ;
+ }
+ 
+ #layer1 {
+	position: absolute;
+	z-index: 10;
+	left: 30px;
+	 
+	top: 35px;
+}
+#layer2 {
+  position: absolute;
+  z-index: 5;
+  left: 0px;
+}
+#otop {
+	LEFT: 0px; WIDTH: 99%; POSITION: absolute; TOP: 2px; HEIGHT: 20px; TEXT-ALIGN: right;z-index:100;
+}
+
+.top_space {
+  padding-top:3px ;
+}
+.nenbao {
+   background-color:#E8F7F5;
+   padding-top:2px ;
+   padding-bottom:2px ;
+   min-height:400px;
+}
+.nencon {
+background-color:#F9FFFF;
+}
+.Normal1 {
+ 
+ 	color: #000000;
+	 }
+.Highlight3 {
+  color: #FF0000;
+ 
+}
+.Normal4 {
+	background-color:#EEEEEE	 
+}
+.Highlight4 {
+ background-color:#CAFFCA
+ 
+}
+ 
+A.caythumuc {
+	color:#0000FF	;
+	text-decoration:none ;
+	
+	}
+A.caythumuc:hover {
+	color:#FF0000	;
+	text-decoration:none ;
+}
+	
+ 
+.Normal5 {
+	background-color:#FFFFFF	 
+}
+.Highlight5 {
+ background-color:#CAFFCA
+ 
+}
+
+.listv:hover  {
+	BACKGROUND: #ccffcc; COLOR: #FF0000
+}
+
+.listv:hover  {
+	BACKGROUND: #ccffcc; COLOR: #FF0000
+}
+ 
+TABLE TR.listv:hover td {
+	BACKGROUND: #ccffcc; COLOR: #FF0000
+}
+
+
+.topic {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #c0c0c0 1px solid; MARGIN-TOP: 0px; PADDING-LEFT: 1px; BACKGROUND: #CCCCCC; PADDING-BOTTOM: 2px; OVERFLOW: hidden; BORDER-LEFT: #c0c0c0 1px solid; height:100%; PADDING-TOP: 0px; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+.wrapper {
+	BACKGROUND: #ffffff; MARGIN: 0px auto; WIDTH: 1100px; TEXT-ALIGN: left
+}
+
+
+
+.chromestyle{
+	width: 100%;
+	font-weight: bold;
+	font-size:11px;
+	LEFT: 200px;
+	HEIGHT: 25px;
+	background-color:#eef2fb;
+	}
+
+.header {
+	WIDTH: 1100px; POSITION:TOP: 0px
+}
+ .Highlight1 {color:#FF0000;
+
+ }
+ 	
+	
+.maufiel
+{
+	 color:#0000FF;
+	 Font-Weight:Bold;
+	 Font-size:11pt;
+}
+
+label.maufiel
+{
+	 color:#0000FF;
+	 Font-Weight:Bold;
+	 Font-size:11pt;
+}
+
+.maufielt
+{
+	 cursor:pointer;
+	 color:#0000FF;
+	 Font-Weight:Bold;
+	 Font-size:11pt;
+}
+
+label.maufielt
+{
+	 cursor:pointer;
+	 color:#0000FF;
+	 Font-Weight:Bold;
+	 Font-size:11pt;
+}
+
+
+
+a.menutab
+{
+	color:#464646;
+	font-weight:bold
+	
+}	
+
+div.mauchucnang
+{
+	 background-color:#CBE4CF
+}	
+ .Highlight2 {
+	 color:#4427E9;
+	TEXT-DECORATION: none;
+	font-family: tahoma;
+	font-size: 12px;
+	
+	}	
+
+.menubar {
+	BACKGROUND: #fff; LEFT: 200px; WIDTH: 100%; HEIGHT: 31px
+}
+.thanhtintuc{
+	BACKGROUND: #eef2fb;   WIDTH: 892px; HEIGHT: 14px;padding:3px;BORDER :#cccccc 1px solid;
+}
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+#nn{ background-color:#009933;}
+.chromestyle ul{
+border: 1px solid #BBB;
+width: 100%;
+background: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+padding: 4px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+.chromestyle ul li{
+display: inline;
+}
+.chromestyle ul li a{
+color: #494949;
+padding: 4px 7px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #DADADA;
+}
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+background: url(chromebg-over.gif) center center repeat-x; /*THEME CHANGE HERE*/
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color: white;
+width: auto;
+min-width:200px;
+padding-right:3px;
+visibility: hidden;
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); /*Add Shadow in IE. Remove if desired*/
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #F0F0F0;
+
+}
+ 
+.tintuc  a:link {
+	COLOR: #00FF66; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+.tintuc a:visited {
+	COLOR: #99FF00; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+.tintuc a:active {
+	COLOR: #FF3300; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+.tintuc a:hover {
+	COLOR: #993399; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+	}
+	
+a.tintuc:link {
+	COLOR: #970000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+a.tintuc:visited {
+	COLOR: #970000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+a.tintuc:active {
+	COLOR: #970000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+a.tintuc:hover {
+	COLOR: #FF0000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+
+}
+
+
+ 
+
+.kehoach{
+ COLOR:#0000FF;
+}
+  
+ 
+	.inptr{
+	Color:#FF0000;background-image: url(images/dot_black.gif);Border:0px;Text-Align:center;
+    }
+	.inpt{
+	Color:#FF0000;background-image: url(images/dot_black.gif);Border:0px;Text-Align:center;
+    }	
+	.inpl{
+	Color:#0000FF;background-image:url(../images/dot_xanh.gif);Border:0px;Text-Align:left;height:20px;line-height:20px;
+    }
+	.inpl25{
+	Color:#0000FF;background-image:url(../images/dot_xanh25.gif);Border:0px;Text-Align:left;
+    }	
+	.chu{
+		Color:#FF3300; font-style:inherit;font-size:12px
+    }	
+
+	.lb{
+		Color:green;Font-Weight:Bold;
+	}

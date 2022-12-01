@@ -1,0 +1,21 @@
+//=====================tao so phieu========================================== 
+    $thang = gmdate('m', time() + 7*3600);  
+   $nam = gmdate('y', time() + 7*3600); 
+   $so = strlen($id) + 10; 
+    $sql = "select  MAX(CONVERT(MID(sochungtu,$so,22 ),UNSIGNED INTEGER))   as sp from congnoncc 
+	 where  mid(sochungtu,6,2) = '$thang'  and mid(sochungtu,4,2) = '$nam'   " ; // khong dung duoc do no kg dung theo kho ma dung theo id
+	 
+//Tạo số chứng từ
+
+$kq = $data->truyvan($sql) ;		
+   $sp = laso($kq['sp']) + 1 ;
+   if (strlen($sp)== '1' ) $sp = "00". $sp ;
+   if (strlen($sp)== '2' ) $sp = "0". $sp ;
+   	if ($loaitk==1)  $sochungtu ="CNT".$nam.$thang.".".$id.".".$sp ; else   $sochungtu ="CNC".$nam.$thang.".".$id.".".$sp ;
+$sql = " INSERT INTO congnoncc
+			set  soluong = '$soluong',dongia = '$dongia',IDtao='$id', sochungtu='$sochungtu',ngay='$ngaynhap',ngaytao='$ngaytao',note='$note',sotien='$st',lydo='$lydo',nguoinhan='$nguoinhan',nguoichi='$nguoichi',donvi='$donvi',loaitk='$loaitk' ,IDSua='$id',luachon='$luachon',lydoN ='$lydoN',idnhacc='$idnhacc',sodu='$sodu'  ";
+$sql = " select sodu from congnoncc where idnhacc='$idnhacc'    order by ngaytao desc,ID desc limit 1  ";
+			$tam =getdong($sql);
+		 
+			if ($loaitk==1) $st= - $sotien ; else $st= $sotien ; 
+			$sodu = laso($tam['sodu']) + $st ;

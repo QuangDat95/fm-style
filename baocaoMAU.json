@@ -1,0 +1,160 @@
+[
+  {
+    "so_phieu": "B2201A.1076.8667",
+    "ngay_ban":"1/9/2022  7:46:00 AM",
+    "khach_hang":{
+      "ma_khach_hang": 146,
+      "ten_khach_hang":"ĐẶng Mai",
+      "ngay_sinh":"10/15/1995",
+      "so_dien_thoai":"0985950741",
+      "dia_chi": "Gia Lai"
+    },
+    "nhan_vien":{
+      "ma_nhan_vien":"FM0445 - 6880-0",
+      "nhan_vien_id":"001",
+      "ten_nhan_vien":"Nguyễn Thị Kim Quý"
+    },
+    "thu_ngan":{
+      "ma_nhan_vien":"FM0445",
+      "nhan_vien_id":"003",
+      "ten_nhan_vien":"Nguyễn Thị Ly"
+    },
+    "dong_hoa_don":{
+      "dong_hoa_don_id":1,
+      "noi_dung_dong_hoa_don":[
+        {
+          "ma_san_pham":"211119500",
+          "ten_san_pham":"Thun cổ tròn TN Maybe too many 20162_Trắng",
+          "Size":"S",
+          "mau_san_pham":"Đen",
+          "nhom_hang":"Đồ thun",
+          "ma_mo_ta":"2111ATC5361950",
+          "gia_chuan":149000,
+          "voucher":0,
+          "chiet_khau":0,
+          "gia_ban":149000,
+          "gia_giam":0,
+          "so_luong":1,
+          "thanh_tien":149000,
+          "note":"",
+          "pass_don":{
+            "nhan_vien_nhan_don":{
+              "ma_nhan_vien":"FM0445 - 6880-0",
+              "nhan_vien_id":"001",
+              "ten_nhan_vien":"Nguyễn Thị Kim Quý"
+            },
+            "cua_hang_nhan_don":{
+              "dia_chi_cua_hang_day_du":"Thôn Bình Tân - bình minh -thăng bình - quảng nam",
+              "phuong_xa":"Bình minh",
+              "quan_huyen":"Thăng Bình",
+              "tinh_tp":"Quảng Nam",
+              "khu_vuc":"Miền Trung"
+            },
+            "thoi_gian_nhan_don_pass":""
+          },
+          "trang_thai":{
+            "thoi_gian_hoan_thanh":"1/16/2022  7:46:00 AM",
+            "thoi_gian_tra_hang":""
+          }
+        },
+        {
+          "ma_san_pham":"211215601",
+          "ten_san_pham":"Thun cổ tròn TN GRUMPY 134_Đen",
+          "Size":"S",
+          "mau_san_pham":"Đen",
+          "nhom_hang":"Đồ thun",
+          "ma_mo_ta":"2112ATC5361661",
+          "gia_chuan":145000,
+          "voucher":0,
+          "chiet_khau":0,
+          "gia_ban":145000,
+          "gia_giam":0,
+          "so_luong":1,
+          "thanh_tien":145000,
+          "note":"",
+          "pass_don":{
+            "nhan_vien_nhan_don":{
+              "ma_nhan_vien":"FM0445 - 6880-0",
+              "nhan_vien_id":"001",
+              "ten_nhan_vien":"Nguyễn Thị Kim Quý"
+            },
+            "cua_hang_nhan_don":{
+              "dia_chi_cua_hang_day_du":"Thôn Bình Tân - bình minh -thăng bình - quảng nam",
+              "phuong_xa":"Bình minh",
+              "quan_huyen":"Thăng Bình",
+              "tinh_tp":"Quảng Nam",
+              "khu_vuc":"Miền Trung"
+            },
+            "thoi_gian_nhan_don_pass":""
+          },
+          "trang_thai":{
+            "thoi_gian_hoan_thanh":"1/16/2022  7:46:00 AM",
+            "thoi_gian_tra_hang":""
+          }        
+        },
+        {
+          "ma_san_pham":"210712001",
+          "ten_san_pham":"Short kaki ống rộng 57_Đen",
+          "size":"S",
+          "mau_san_pham":"Đen",
+          "nhom_hang":"Đồ thun",
+          "ma_mo_ta":"2107SKU5811201",
+          "gia_chuan":109000,
+          "voucher":0,
+          "chiet_khau":0,
+          "gia_ban":109000,
+          "gia_giam":0,
+          "so_luong":1,
+          "thanh_tien":109000,
+          "note":"",
+          "pass_don":{
+            "nhan_vien_nhan_don":{
+              "ma_nhan_vien":"FM0445 - 6880-0",
+              "nhan_vien_id":"001",
+              "ten_nhan_vien":"Nguyễn Thị Kim Quý"
+            },
+            "cua_hang_nhan_don":{
+              "dia_chi_cua_hang_day_du":"Thôn Bình Tân - bình minh -thăng bình - quảng nam",
+              "phuong_xa":"Bình minh",
+              "quan_huyen":"Thăng Bình",
+              "tinh_tp":"Quảng Nam",
+              "khu_vuc":"Miền Trung"
+            },
+            "thoi_gian_nhan_don_pass":""
+          },
+          "trang_thai":{
+            "thoi_gian_hoan_thanh":"1/16/2022  7:46:00 AM",
+            "thoi_gian_tra_hang":""
+          }       
+        }
+      ],
+      "kenh_ban_online":{
+        "team_online":"Online 1",
+        "dia_chi_giao_hang_day_du":"Thôn Bình Tân - bình minh -thăng bình - quảng nam",
+        "phuong_xa":"Bình minh",
+        "quan_huyen":"Thăng Bình",
+        "tinh_tp":"Quảng Nam"
+      },
+      "kenh_ban_offline":{
+        "dia_chi_cua_hang_day_du":"Thôn Bình Tân - bình minh -thăng bình - quảng nam",
+        "phuong_xa":"Bình minh",
+        "quan_huyen":"Thăng Bình",
+        "tinh_tp":"Quảng Nam",
+        "khu_vuc":"Miền Trung"
+      },
+      "trang_thai":{
+        "thoi_gian_tao_don":"1/9/2022  7:46:00 AM",
+        "thoi_gian_huy_don":"",
+        "thoi_gian_xuat_kho":"1/11/2022  7:46:00 AM",
+        "thoi_gian_hoan_thanh":"1/16/2022  7:46:00 AM",
+        "thoi_gian_tra_hang":""
+      }
+
+
+    }
+
+
+
+    
+  }
+]

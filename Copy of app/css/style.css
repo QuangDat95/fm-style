@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 414px) {}
+
+.title {
+    /* font-size: 70px; */
+}
+
+#qr-reader-results {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    background-color: #00000057;
+    align-items: flex-end;
+    transiton: all 0.9s linear;
+    justify-content: flex-end;
+}
+
+#result_content {
+    border: 1px solid silver;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: -2em;
+}
+
+.wrap_scan div {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#result_content input {
+    width: 40%;
+}
+
+#result_content input,
+#result_content button {}
+
+#result_content button {}
+
+#qr-reader__dashboard_section_csr button {
+    background-color: unset !important;
+    background-color: unset;
+    border: 1px solid #ff9800;
+    padding-left: 0.7em;
+}
+
+.btn_default {
+    background-color: unset;
+    border: 1px solid #ff9800;
+    padding-left: 0.7em;
+}
+
+#info p {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#info {
+    margin-top: 30px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#result_content .lab {
+    /* font-size: 40px; */
+    font-weight: bold;
+}
+
+#result_content h1 {
+    /* font-size: 40px; */
+}
+
+.scan {
+    min-height: 80%;
+}
+
+.wrap_scan {
+    width: 100%;
+    /*background-color:#FFFFFF;*/
+    height: 98%;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button,
+select,
+textarea {
+    font-size: unset !important;
+    /* font-size: 30px !important; */
+    /* padding: 1em; */
+}
+
+.qr-reader {
+    width: 100%;
+    display: flex;
+    height: 90% !important;
+}
+
+#qr-reader>div:first-child img {
+    display: none !important;
+}
+
+#closesc {
+    width: 100px;
+    padding: 0.5em;
+    margin: 0 auto;
+    background-color: #ff9800;
+    color: #ffffff;
+}
+
+#qr-reader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90% !important;
+    border-top: none !important;
+    border-bottom: 1px solid #ff9800 !important;
+}
+
+#qr-reader video {
+    /*object-fit: cover;
+				width:95% !important;
+				height:100%;*/
+}
+
+#qr-reader__scan_region {
+    /*   width: 100% !important;
+    margin: 0 auto;
+   
+			text-align: center;
+			display: flex;
+			position: relative;
+			background-color: #ffffff;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;*/
+}
+
+#qr-shaded-region {}
+
+#qr-reader__scan_region img {
+    width: 50%;
+}
+
+.title_sc {
+    font-size: 2em;
+    border-bottom: 1px solid #ff9800 !important;
+}
+
+#qr-reader__dashboard_section_swaplink {
+    text-decoration: underline;
+    display: inline-block;
+    /* font-size: 40px; */
+    margin-top: 1em;
+    color: #000000;
+}
+
+#qr-reader__dashboard_section_fsr {
+    font-size: 40px;
+    display: flex;
+}
+
+#qr-reader__dashboard_section_fsr input {
+    width: 70% !important;
+    /* height: 100px; */
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+
+
+/*#qr-reader__dashboard_section_swaplink{
+			display:flex !important;
+			color:#FFFFFF;
+			justify-content: center;
+		}*/
+
+#close {
+    display: flex;
+    padding: 0.5em;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#close button {
+    background-color: unset;
+    border: none;
+    font-size: 20px !important;
+}
+
+#close button:focus {
+    border: none;
+    outline: none;
+}
+
+#close button:active {
+    border: none;
+    outline: none;
+}
+
+#loading {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#loading img {
+    width: 50px;
+}
+
+@media all and (min-width: 1024px) {
+    #result_content input,
+    #result_content button {}
+    #result_content button {}
+    #info {
+        margin-top: 0;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    #result_content .lab {
+        /* font-size: 18px; */
+        font-weight: bold;
+    }
+    #result_content h1 {
+        /* font-size: 18px; */
+    }
+    #close {
+        display: none !important;
+    }
+    #qr-reader-results {
+        position: unset;
+        display: flex;
+        border: 1px solid silver;
+        width: 45%;
+        height: 100%;
+    }
+    #result_content {
+        border: 1px solid silver;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 0 1em;
+    }
+    .wrap_scan {
+        width: 100%;
+        /*background-color:#FFFFFF;*/
+        height: 100vh;
+        position: unset;
+    }
+    .wrap_scan {}
+    .wrap_scan {
+        width: 100%;
+        /*background-color:#FFFFFF;*/
+        height: 100vh;
+    }
+    input,
+    button,
+    select,
+    textarea {
+        font-size: unset !important;
+        font-size: 14px !important;
+        padding: 0.5em;
+    }
+    #qr-reader {
+        display: flex;
+        width: 60% !important;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #qr-reader video {
+        object-fit: cover;
+    }
+    #qr-reader__scan_region {
+        /*width:100% !important;
+			margin:0 auto;
+				
+			text-align: center;
+			display: flex;
+			position: relative;
+			background-color: #000;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;*/
+    }
+    #qr-reader__scan_region {}
+    #qr-reader__scan_region img {
+        width: 40%;
+    }
+    #qr-reader__dashboard_section_swaplink {
+        text-decoration: underline;
+        display: inline-block;
+        /* font-size: 20px; */
+        margin-top: 1em;
+        color: #000;
+    }
+    #qr-reader__dashboard_section_fsr {
+        font-size: 40px;
+    }
+    #qr-reader__dashboard_section_fsr input {
+        width: 80% !important;
+        /* height: 100px; */
+        margin: 0 auto;
+    }
+}

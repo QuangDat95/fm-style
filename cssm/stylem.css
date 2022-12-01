@@ -1,0 +1,254 @@
+ BODY {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 0.7em; BACKGROUND: url(background.gif); MARGIN: 0px auto 30px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 1000px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: verdana; TEXT-ALIGN: center
+}
+
+.tin
+{
+	COLOR: #0000FF; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica;
+	width:97% ;
+	padding-left:10px;
+	
+}
+td.doimau:link {
+	COLOR: #0000FF; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+td.doimau:visited {
+	COLOR: #0000FF; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+td.doimau:active {
+	COLOR: #000000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+td.doimau:hover {
+	COLOR: #FF0000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+tr.doimau:link {
+	COLOR: #0000FF; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+tr.doimau:visited {
+	COLOR: #0000FF; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+tr.doimau:active {
+	COLOR: #000000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+tr.doimau:hover {
+	COLOR: #FF0000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+
+a.doimau:link {
+	COLOR: #0000FF; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+a.doimau:visited {
+	COLOR: #0000FF; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+a.doimau:active {
+	COLOR: #000000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+a.doimau:hover {
+	COLOR: #FF0000; TEXT-DECORATION: none; FONT-SIZE: 12px;  FONT-FAMILY: Arial, Verdana,  Helvetica
+}
+
+ .timkiem {
+	color:#FF3300; FONT-WEIGHT: normal; FONT-SIZE: 14px; FONT-FAMILY:  "Times New Roman", Times, serif, Helvetica;padding-top:5px
+}
+ .compo {
+	 color:#003300; 
+}
+ .inputl {
+	 color:#003300;text-align:left
+}
+ .texta {
+		overflow:auto;background-color:#eef2fb;Color:green;background-image: url(../images/dot_xanh.gif);Border:0px;Text-Align:left;}
+ .inputr {
+	 color:#003300;text-align:right
+}
+ .inputc {
+	 color:#003300;text-align:center
+}
+
+.wrapper {
+	BACKGROUND: #ffffff; MARGIN: 0px auto; WIDTH: 900px; TEXT-ALIGN: left
+}
+.header {
+	WIDTH: 900px; POSITION: fixed; TOP: 0px
+}
+.footer {
+	CLEAR: both; BORDER-TOP: #c0c0c0 1px solid; BACKGROUND: #fff; TEXT-ALIGN: center
+}
+.leftcol {
+	BORDER-RIGHT: #cccccc 1px solid; FLOAT: left; MARGIN: 10px; WIDTH: 1px; TEXT-ALIGN: center
+}
+.bentrai {
+	BORDER-RIGHT: #c0c0c0 1px solid; FLOAT: left; MARGIN: 10px; WIDTH: 191px; TEXT-ALIGN: center ; background-color:#999999 ;padding-top:200
+}
+.rightcol {
+	
+}
+ .inputtrong {
+	Color:#5BB6E6; Border:1px
+}
+ 
+.content {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px;  PADDING-BOTTOM: 1px; MARGIN-LEFT: 1px;MARGIN-RIGHT: 1px; BORDER-LEFT: #cccccc 1px solid; BORDER-right: #cccccc 1px solid;PADDING-TOP: 10px; 
+}
+.logo {
+	BACKGROUND: #fff
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.menubar {
+	BACKGROUND: #fff; LEFT: 200px; WIDTH: 100%; HEIGHT: 31px
+}
+.sep {
+	CLEAR: both; BORDER-BOTTOM: #c0c0c0 3px solid; HEIGHT: 10px
+}
+.mmenu {
+	PADDING-RIGHT: 0px; BORDER-TOP: #bbbbbb 1px solid; PADDING-LEFT: 0px; Z-INDEX: 999; BACKGROUND: #eef2fb; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #bbbbbb 1px solid; LIST-STYLE-TYPE: none; POSITION: relative
+}
+.mmenu UL {
+	PADDING-RIGHT: 0px; BORDER-TOP: #bbbbbb 1px solid; PADDING-LEFT: 0px; Z-INDEX: 999; BACKGROUND: #eef2fb; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #bbbbbb 1px solid; LIST-STYLE-TYPE: none; POSITION: relative
+}
+* HTML .mmenu A:hover {
+	BACKGROUND: #e0e1fb; COLOR: #331734; POSITION: relative
+}
+* HTML .mmenu LI UL {
+	DISPLAY: block; VISIBILITY: hidden; POSITION: absolute
+}
+.mmenu A {
+	BORDER-RIGHT: #eef2fb 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #eef2fb 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; BORDER-LEFT: #eef2fb 1px solid; WIDTH: 200px; COLOR: #000066; PADDING-TOP: 4px; BORDER-BOTTOM: #eef2fb 1px solid; POSITION: relative; TEXT-DECORATION: none
+}
+.mmenu UL A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.mmenu LI {
+	FONT-SIZE: 11px; BACKGROUND: #eef2fb; FLOAT: left; FONT-FAMILY: verdana
+}
+.mmenu LI:hover {
+	Z-INDEX: 999; POSITION: relative
+}
+.mmenu LI UL {
+	BORDER-RIGHT: #bbbbbb 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #bbbbbb 1px solid; DISPLAY: none; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #bbbbbb 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #bbbbbb 1px solid
+}
+.mmenu UL LI UL {
+	MARGIN-TOP: -30px; MARGIN-LEFT: 200px
+}
+.mmenu UL LI {
+	CLEAR: both; BACKGROUND: #eef2fb
+}
+.mmenu A:active {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; BACKGROUND: #e0e1fb; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #331734; BORDER-BOTTOM: #bbbbbb 1px solid
+}
+.mmenu A:focus {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; BACKGROUND: #e0e1fb; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #331734; BORDER-BOTTOM: #bbbbbb 1px solid
+}
+.mmenu LI:hover > A {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; BACKGROUND: #e0e1fb; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #331734; BORDER-BOTTOM: #bbbbbb 1px solid; TEXT-DECORATION: none
+}
+.mmenu LI:hover > UL {
+	DISPLAY: block; POSITION: absolute
+}
+.mmenu TABLE {
+	FONT-SIZE: 0.1em; LEFT: -4px; POSITION: absolute; TOP: 8px; HEIGHT: 25px
+}
+.mmenu IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 2px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: middle; BORDER-RIGHT-WIDTH: 0px
+}
+.mmenu A:hover {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; BACKGROUND: #e0e1fb; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #331734; BORDER-BOTTOM: #bbbbbb 1px solid; TEXT-DECORATION: none
+}
+.menudownarrow {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 0px; RIGHT: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: middle; POSITION: relative; BORDER-RIGHT-WIDTH: 0px
+}
+.menuarrow {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; BORDER-LEFT-WIDTH: 0px; RIGHT: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 6px; POSITION: absolute; BORDER-RIGHT-WIDTH: 0px
+}
+.mmenu A:hover UL UL {
+	VISIBILITY: hidden
+}
+.mmenu A:hover UL A:hover UL UL {
+	VISIBILITY: hidden
+}
+.mmenu A:hover UL A:hover UL A:hover UL UL {
+	VISIBILITY: hidden
+}
+.mmenu A:hover UL A:hover UL A:hover UL A:hover UL UL {
+	VISIBILITY: hidden
+}
+.mmenu A:hover UL A:hover UL A:hover UL A:hover UL A:hover UL UL {
+	VISIBILITY: hidden
+}
+.mmenu A:hover UL {
+	VISIBILITY: visible
+}
+.mmenu A:hover UL A:hover UL {
+	VISIBILITY: visible
+}
+.mmenu A:hover UL A:hover UL A:hover UL {
+	VISIBILITY: visible
+}
+.mmenu A:hover UL A:hover UL A:hover UL A:hover UL {
+	VISIBILITY: visible
+}
+.mmenu A:hover UL A:hover UL A:hover UL A:hover UL A:hover UL {
+	VISIBILITY: visible
+}
+.mmenu A:hover UL A:hover UL A:hover UL A:hover UL A:hover UL A:hover UL {
+	VISIBILITY: visible
+}
+.menu1 A {
+	WIDTH: 300px
+}
+.menu1 UL {
+	MARGIN-LEFT: 300px! important
+}
+.menu12 A {
+	WIDTH: 100px
+}
+.menu12 UL {
+	MARGIN-LEFT: 100px! important
+}
+.menu13 A {
+	WIDTH: 200px
+}
+.menu13 UL {
+	MARGIN-LEFT: 200px! important
+}
+.menu14 A {
+	WIDTH: 100px
+}
+.menu14 UL {
+	MARGIN-LEFT: 100px! important
+}
+.ads {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 0.8em; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: verdana; TEXT-ALIGN: center
+}
+.separator {
+	BORDER-TOP: black 1px solid; FONT-SIZE: 0.1em; HEIGHT: 1px
+}
+.separator A:hover {
+	FONT-SIZE: 0.1em; HEIGHT: 1px
+}
+.codetitle {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #c0c0c0 1px solid; MARGIN-TOP: 10px; PADDING-LEFT: 8px; BACKGROUND: white; PADDING-BOTTOM: 8px; MARGIN-LEFT: 10px; BORDER-LEFT: #c0c0c0 1px solid; MARGIN-RIGHT: 10px; PADDING-TOP: 8px; BORDER-BOTTOM: #c0c0c0 0px solid
+}
+.codecontent {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #c0c0c0 0px solid; PADDING-LEFT: 10px; BACKGROUND: white; MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 1px; MARGIN-LEFT: 10px; BORDER-LEFT: #c0c0c0 1px solid; MARGIN-RIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: courier
+}
+.topic {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #c0c0c0 1px solid; MARGIN-TOP: 8px; PADDING-LEFT: 6px; BACKGROUND: #eef2fb; PADDING-BOTTOM: 6px; OVERFLOW: hidden; BORDER-LEFT: #c0c0c0 1px solid; height:100%; PADDING-TOP: 40px; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+.quotetitle {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #dddddd 1px solid; MARGIN-TOP: 10px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; BACKGROUND: white; PADDING-BOTTOM: 8px; MARGIN-LEFT: 10px; BORDER-LEFT: #dddddd 1px solid; MARGIN-RIGHT: 10px; PADDING-TOP: 8px; BORDER-BOTTOM: #dddddd 0px solid; FONT-STYLE: italic
+}
+.quotecontent {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #dddddd 0px solid; PADDING-LEFT: 10px; BACKGROUND: white; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; MARGIN-LEFT: 10px; BORDER-LEFT: #dddddd 1px solid; MARGIN-RIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: courier
+}
+A {
+	COLOR: darkblue
+}
+A:hover {
+	COLOR: red
+}
+H3 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px
+}
